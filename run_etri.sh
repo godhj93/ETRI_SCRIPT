@@ -1,5 +1,5 @@
-echo "Launch jtop logger"
-python3 jtop_logger.py &
+#echo "Launch jtop logger"
+#python3 jtop_logger.py &
 
 echo "Launch FLIR IR Camera ROS Package"
 roslaunch flir_boson_usb flir_boson.launch & 
