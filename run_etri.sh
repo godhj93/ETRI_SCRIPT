@@ -11,7 +11,7 @@ sleep 5s
 P3=$!
 
 echo "RUN YOLOv5 in Docker Container"
-docker run -it --rm  --network host -v ~/:/server/ --runtime nvidia -v /dev/v4l/by-id:/dev/v4l/by-id  --privileged godhj93/etri_rescue:221027
+docker run -it --rm  --network host -v ~/:/server/ --runtime nvidia -v /dev/v4l/by-id:/dev/v4l/by-id  --privileged godhj/etri_rescue:221027
 P2=$!
 sleep 5s
 
